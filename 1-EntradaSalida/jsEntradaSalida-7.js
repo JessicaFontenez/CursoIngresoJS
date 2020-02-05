@@ -3,7 +3,23 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
-{	
+{
+	var primerNumero;
+	var segundoNumero;
+	var resultado;
+
+	primerNumero=(document.getElementById('numeroUno').value);//parseint cambia el valor, no la ubicacion de la memoria
+	primerNumero=parseint(primerNumero);
+	console.log(parseint(primerNumero));
+	segundoNumero=(document.getElementById('numeroDos').value);
+	segundoNumero=parseint (segundoNumero)
+	console.log(parseint(segundoNumero));
+
+	resultado=primerNumero+segundoNumero;
+
+	console.log(resultado);
+
+
 	
 }
 
